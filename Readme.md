@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Di Ant](https://up.htmlacademy.ru/htmlcss/25/user/1052897).
-* Наставник: `Максим Фарига`.
+* Наставник: [Максим Фарига](https://htmlacademy.ru/profile/maximfariga).
 
 ---
 
