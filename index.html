@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>Gllacy Shop - Главная</title>
+</head>
 
-  </body>
+<body>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a class="site-header-logo"><img src="img/placeholder.png" alt="Логотип компании" width="150"></a>
+      <!--Логотип на главной специально не сделан ссылкой на главную, т.к. в лекции был здравый комментарий, что это вредно с точки зрения СЕО. На остальных страницах логотип = ссылка на главную- + по ТЗ на главной логотип не является ссылкой->
+      <ul class="site-nav-points">
+        <li><a href="catalogue.html">Каталог</a></li>
+        <li><a href="delivery.html">Доставка и оплата</a></li>
+        <li><a href="about.html">О компании</a></li>
+      </ul>
+      <!--Здесь будет форма поиска-->
+      <ul class="cabinet">
+        <li class="user-login">Вход</li>
+      </ul>
+      <ul class="purchase">
+        <li class="purchase-empty">Пусто</li>
+      </ul>
+      <div class="schedule">
+        <p class="schedule-time">С 10 до 20, ежедневно</p>
+        <p class="schedule-phone">8 812 450-25-25</p>
+      </div>
+    </nav>
+  </header>
+  <main class="site-content">
+    <!--Пока не делала попапы, т.к. они в "красной" части макета-->
+    <h1 class="invisible">Магазин Глейси</h1>
+    <!--Заголовок будет скрыт-->
+    <!--Здесь будет "красная" часть макета-->
+    <section class="about-shop">
+      <h2 class="invisible">О магазине</h2>
+      <!--Заголовок будет скрыт-->
+      <p class="about-shop-intro">Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</p>
+      <ul class="about-shop-list">
+        <li class="about-shop-item">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
+        <li class="about-shop-item">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</li>
+        <li class="about-shop-item">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
+        <li class="about-shop-item">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</li>
+      </ul>
+    </section>
+    <section class="blog">
+      <h2 class="blog-title">Новое в нашем блоге</h2>
+      <p class="blog-description"><a class="blog-link" href="#">10 способов сервировки фруктовых щербетов к столу</a></p>
+    </section>
+    <article class="subscribe">
+      <h2 class="invisible">Подписка на новости</h2>
+      <!--Заголовок будет скрыт-->
+      <p class="subscribe-description">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+      <!--Здесь будет форма подписки-->
+    </article>
+    <!--Здесь будет виджет карты (на макете - красным)-->
+  </main>
+  <footer class="site-footer">
+    <div class="SNS-footer">
+      <ul class="footer-SNS">
+        <li class="SNS-item"><a href="#">Мы в Твиттере</a></li>
+        <li class="SNS-item"><a href="#">Мы в Инстаграмме</a></li>
+        <li class="SNS-item"><a href="#">Мы в Фейсбуке</a></li>
+        <li class="SNS-item"><a href="#">Мы Вконтакте</a></li>
+      </ul>
+    </div>
+    <div class="footer-documents">
+      <ul class="documents-list">
+        <li class="documents-item"><a href="#">Для поставщиков</a></li>
+        <li class="documents-item"><a href="#">О производстве</a></li>
+        <li class="documents-item"><a href="#">Наши документы</a></li>
+        <li class="documents-item"><a href="#">Экологические стандарты</a></li>
+      </ul>
+    </div>
+    <div class="footer-trademark">
+      <a class="footer-trademark-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/placeholder.png" alt="Логотип HTML Academy" width="100"></a>
+      <p class="footer-trademark-text">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
+    </div>
+  </footer>
+</body>
+
 </html>
