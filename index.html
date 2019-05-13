@@ -9,23 +9,26 @@
 <body>
   <header class="site-header">
     <nav class="site-nav">
-      <a class="site-header-logo"><img src="img/placeholder.png" alt="Логотип компании" width="150"></a>
-      <!--Логотип на главной специально не сделан ссылкой на главную, т.к. в лекции был здравый комментарий, что это вредно с точки зрения СЕО. На остальных страницах логотип = ссылка на главную- + по ТЗ на главной логотип не является ссылкой->
+      <a class="site-header-logo"><img src="img/placeholder.png" alt="Логотип компании" height="100"></a>
+      <!--Логотип на главной специально не сделан ссылкой на главную, т.к. в лекции был здравый комментарий, что это вредно с точки зрения СЕО + по ТЗ на главной логотип не является ссылкой. На остальных страницах логотип = ссылка на главную-->
       <ul class="site-nav-points">
         <li><a href="catalogue.html">Каталог</a></li>
         <li><a href="delivery.html">Доставка и оплата</a></li>
         <li><a href="about.html">О компании</a></li>
       </ul>
       <!--Здесь будет форма поиска-->
+      <ul class="search">
+        <li class="icon-search"><span class="invisible">Поиск по сайту</span></li>
+      </ul>
       <ul class="cabinet">
-        <li class="user-login">Вход</li>
+        <li class="user-login">Вход<span class="invisible"> в личный кабинет</span></li>
       </ul>
       <ul class="purchase">
-        <li class="purchase-empty">Пусто</li>
+        <li class="purchase-empty">Пусто<span class="invisible"> в корзине</span></li>
       </ul>
       <div class="schedule">
         <p class="schedule-time">С 10 до 20, ежедневно</p>
-        <p class="schedule-phone">8 812 450-25-25</p>
+        <p class="schedule-phone"><a href="phone.html">8 812 450-25-25</a></p>
       </div>
     </nav>
   </header>
@@ -58,24 +61,20 @@
     <!--Здесь будет виджет карты (на макете - красным)-->
   </main>
   <footer class="site-footer">
-    <div class="SNS-footer">
-      <ul class="footer-SNS">
-        <li class="SNS-item"><a href="#">Мы в Твиттере</a></li>
-        <li class="SNS-item"><a href="#">Мы в Инстаграмме</a></li>
-        <li class="SNS-item"><a href="#">Мы в Фейсбуке</a></li>
-        <li class="SNS-item"><a href="#">Мы Вконтакте</a></li>
-      </ul>
-    </div>
-    <div class="footer-documents">
-      <ul class="documents-list">
-        <li class="documents-item"><a href="#">Для поставщиков</a></li>
-        <li class="documents-item"><a href="#">О производстве</a></li>
-        <li class="documents-item"><a href="#">Наши документы</a></li>
-        <li class="documents-item"><a href="#">Экологические стандарты</a></li>
-      </ul>
-    </div>
+    <ul class="footer-SNS">
+      <li class="SNS-item"><a href="#">Мы в Твиттере</a></li>
+      <li class="SNS-item"><a href="#">Мы в Инстаграмме</a></li>
+      <li class="SNS-item"><a href="#">Мы в Фейсбуке</a></li>
+      <li class="SNS-item"><a href="#">Мы Вконтакте</a></li>
+    </ul>
+    <ul class="documents-list">
+      <li class="documents-item"><a href="#">Для поставщиков</a></li>
+      <li class="documents-item"><a href="#">О производстве</a></li>
+      <li class="documents-item"><a href="#">Наши документы</a></li>
+      <li class="documents-item"><a href="#">Экологические стандарты</a></li>
+    </ul>
     <div class="footer-trademark">
-      <a class="footer-trademark-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/placeholder.png" alt="Логотип HTML Academy" width="100"></a>
+      <a class="footer-trademark-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/placeholder.png" alt="Логотип HTML Academy" height="80"></a>
       <p class="footer-trademark-text">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
     </div>
   </footer>

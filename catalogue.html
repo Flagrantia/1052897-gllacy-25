@@ -9,103 +9,104 @@
 <body>
   <header class="site-header">
     <nav class="site-nav">
-      <a class="site-header-logo" href="index.html"><img src="img/placeholder.png" alt="Логотип компании" width="150"></a>
+      <a class="site-header-logo" href="index.html"><img src="img/placeholder.png" alt="Логотип компании" height="100"></a>
       <ul class="site-nav-points">
         <li class="current-page"><a href="catalogue.html">Каталог</a></li>
         <li><a href="delivery.html">Доставка и оплата</a></li>
         <li><a href="about.html">О компании</a></li>
       </ul>
       <!--Здесь будет форма поиска-->
+      <ul class="search">
+        <li class="icon-search"><span class="invisible">Поиск по сайту</span></li>
+      </ul>
       <ul class="cabinet">
-        <li class="user-login">Вход</li>
+        <li class="user-login">Вход<span class="invisible"> в личный кабинет</span></li>
       </ul>
       <ul class="purchase">
-        <li class="purchase-full">2 товара</li>
+        <li class="purchase-full">2 товара<span class="invisible"> в корзине</span></li>
       </ul>
     </nav>
     <div class="schedule">
       <p class="schedule-time">С 10 до 20, ежедневно</p>
-      <p class="schedule-phone">8 812 450-25-25</p>
+      <p class="schedule-phone"><a href="phone.html">8 812 450-25-25</a></p>
     </div>
-    <p class="current-page-text">
-      <a href="index.html">Главная</a> >> <a href="main-catalogue.html">Каталог</a> >> Сливочное
-    </p>
   </header>
   <main class="site-content">
+    <ol class="breadcrumbs">
+      <li class="first-level"><a href="index.html">Главная</a></li>
+      <li class="deeper-level"><a href="main-catalogue.html">Каталог</a></li>
+      <li class="deeper-level"><a>Сливочное</a></li>
+    </ol>
     <h1 class="invisible">Каталог сливочного мороженого</h1>
     <!--Заголовок будет скрыт-->
     <!--Здесь будет "красная" часть макета с фильтром для выбора-->
     <ul class="icecream-list">
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-        <span class="icecream-price">310 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">310 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочно-кофейное с кусочками шоколада">
-        <span class="icecream-price">380 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">380 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочно-клубничное с присыпкой из белого шоколада">
-        <span class="icecream-price">355 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">355 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочное крем-брюле с карамельной подливкой">
-        <span class="icecream-price">415 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">415 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочное с брусничным джемом">
-        <span class="icecream-price">325 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">325 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочное с брусничным джемом</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочно-черничное с цельными ягодами черники">
-        <span class="icecream-price">410 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">410 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочно-черничное с цельными ягодами черники</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочно-лимонное с карамельной присыпкой">
-        <span class="icecream-price">375 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">375 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочно-лимонное с карамельной присыпкой</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочное с шоколадной стружкой">
-        <span class="icecream-price">320 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">320 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочное с шоколадной стружкой</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочно-ванильное с кусочками шоколада">
-        <span class="icecream-price">440 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">440 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочно-ванильное с кусочками шоколада</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочноe с ментоловым сиропом">
-        <span class="icecream-price">435 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">435 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочноe с ментоловым сиропом</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочное с кусочками черного шоколада">
-        <span class="icecream-price">355 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">355 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочное с кусочками черного шоколада</a></p>
       </li>
       <li><img src="img/placeholder.png" width="50" class="icecream-type" alt="Сливочное с мятным сиропом">
-        <span class="icecream-price">420 ₽</span><span class="icecream-weight">/кг</span>
+        <p class="icecream-whole-price"><span class="icecream-price">420 ₽</span><span class="icecream-weight">/кг</span></p>
         <p class="icecream-description"><a href="#">Сливочное с мятным сиропом</a></p>
       </li>
     </ul>
     <!--Здесь будет "красная" часть макета с выбором страницы-->
   </main>
   <footer class="site-footer">
-    <div class="SNS-footer">
-      <ul class="footer-SNS">
-        <li class="SNS-item"><a href="#">Мы в Твиттере</a></li>
-        <li class="SNS-item"><a href="#">Мы в Инстаграмме</a></li>
-        <li class="SNS-item"><a href="#">Мы в Фейсбуке</a></li>
-        <li class="SNS-item"><a href="#">Мы Вконтакте</a></li>
-      </ul>
-    </div>
-    <div class="footer-documents">
-      <ul class="documents-list">
-        <li class="documents-item"><a href="#">Для поставщиков</a></li>
-        <li class="documents-item"><a href="#">О производстве</a></li>
-        <li class="documents-item"><a href="#">Наши документы</a></li>
-        <li class="documents-item"><a href="#">Экологические стандарты</a></li>
-      </ul>
-    </div>
+    <ul class="footer-SNS">
+      <li class="SNS-item"><a href="#">Мы в Твиттере</a></li>
+      <li class="SNS-item"><a href="#">Мы в Инстаграмме</a></li>
+      <li class="SNS-item"><a href="#">Мы в Фейсбуке</a></li>
+      <li class="SNS-item"><a href="#">Мы Вконтакте</a></li>
+    </ul>
+    <ul class="documents-list">
+      <li class="documents-item"><a href="#">Для поставщиков</a></li>
+      <li class="documents-item"><a href="#">О производстве</a></li>
+      <li class="documents-item"><a href="#">Наши документы</a></li>
+      <li class="documents-item"><a href="#">Экологические стандарты</a></li>
+    </ul>
     <div class="footer-trademark">
-      <a class="footer-trademark-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/placeholder.png" alt="Логотип HTML Academy" width="100"></a>
+      <a class="footer-trademark-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/placeholder.png" alt="Логотип HTML Academy" height="80"></a>
       <p class="footer-trademark-text">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
     </div>
   </footer>
