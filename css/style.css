@@ -183,10 +183,28 @@ button.button-small:hover {
   line-height: 24px;
 }
 
-.subscribe-form button {
+.address {
+  background-color: #fdfefe;
+  color: #323232;
+}
+
+.address-additional {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.address-important {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.button-submit-big {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   color: #fefefe;
   background-color: #f06441;
 }
+
+.feedback-close {}
