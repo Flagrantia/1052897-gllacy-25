@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 18px;
+  background-color: #849d8f;
+  background-position: top center;
+  background-image: url("../img/gradient.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
