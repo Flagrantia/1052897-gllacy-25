@@ -165,3 +165,28 @@ button.button-small:hover {
   text-decoration: underline;
   font-weight: 700;
 }
+
+.subscribe {
+  background-color: #f8f7f4;
+}
+
+.subscribe-description {
+  color: #5a5a5a;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.subscribe-form {
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.subscribe-form button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fefefe;
+  background-color: #f06441;
+}
