@@ -94,7 +94,29 @@
         </form>
       </p>
     </article>
-    <!--Здесь будет виджет карты (на макете - красным)-->
+    <!--Секция с картой и адресом-->
+    <img src="img/index/main-map.jpg" alt="ул. Большая Конюшенная, 19/8, Санкт-Петербург" width="1200" height="430">
+    <section class="main-block address">
+      <h2 class="invisible">Связаться с нами</h2>
+      <p class="address-additional">Адрес главного офиса и офлайн-магазина:</p>
+      <span class="address-important">ул. Большая Конюшенная<br>19/8, Санкт-Петербург</span>
+      <p class="address-additional">Для заказов по телефону:</p>
+      <span class="address-important">8 812 450-25-25</span>
+      <p class="address-additional">(с 10 до 20 ежедневно)</p>
+      <button type="button">Форма обратной связи</button>
+      <!--Попап обратной связи-->
+      <section class="feedback">
+        <h2 class="invisible">Обратная связь</h2>
+        <h2 class="feedback">Мы обязательно вам ответим!</h2>
+        <span class="feedback-close" aria-label="Закрыть окно обратной связи">x</span>
+        <form class="modal modal-feedback" method="post" action="https://echo.htmlacademy.ru" name="feedback-form">
+          <input type="text" name="feedback-name" placeholder="Как вас зовут?" aria-label="Поле ввода имени" required>
+          <input type="text" name="feedback-email" placeholder="Ваша почта для ответа?" aria-label="Поле для электронной почты" required>
+          <textarea rows="10" name="feedback-content" aria-label="Текст отзыва" required placeholder="Напишите что-нибудь..."></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+    </section>
   </main>
   <footer class="site-footer">
     <ul class="footer-SNS">
@@ -114,19 +136,6 @@
       <p class="footer-trademark-text">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
     </div>
   </footer>
-
-  <!--Попап обратной связи-->
-  <section class="feedback">
-    <h2 class="invisible">Обратная связь</h2>
-    <h2 class="feedback">Мы обязательно вам ответим!</h2>
-    <span class="feedback-close" aria-label="Закрыть окно обратной связи">x</span>
-    <form class="modal modal-feedback" method="post" action="https://echo.htmlacademy.ru" name="feedback-form">
-      <input type="text" name="feedback-name" placeholder="Как вас зовут?" aria-label="Поле ввода имени" required>
-      <input type="text" name="feedback-email" placeholder="Ваша почта для ответа?" aria-label="Поле для электронной почты" required>
-      <textarea rows="10" name="feedback-content" aria-label="Текст отзыва" required>Напишите что-нибудь...</textarea>
-      <button type="submit">Отправить</button>
-    </form>
-  </section>
 </body>
 
 </html>
