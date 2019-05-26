@@ -42,7 +42,8 @@ a {
 .schedule a,
 .blog a,
 .documents-list a,
-.footer-trademark a {
+.footer-trademark a,
+.icecream-list a {
   color: #ffffff;
 }
 
