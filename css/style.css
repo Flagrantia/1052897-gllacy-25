@@ -98,10 +98,13 @@ section.modal-main-nav {
 
 button.button-small {
   background-color: #9eb2a7;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 button.button-small:hover {
   background-color: #f8f7f4;
+  color: #323232;
 }
 
 .purchase-empty {
