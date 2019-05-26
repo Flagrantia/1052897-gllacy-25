@@ -230,7 +230,8 @@ button.button-small:hover {
   font-weight: 700;
 }
 
-.button-submit-big {
+.button-submit-big,
+.icecream-hover {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
