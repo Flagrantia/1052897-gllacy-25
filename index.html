@@ -16,10 +16,17 @@
         <li><a href="delivery.html">Доставка и оплата</a></li>
         <li><a href="about.html">О компании</a></li>
       </ul>
-      <!--Здесь будет форма поиска-->
 
+      <!--Попап поиска-->
       <ul class="search">
-        <li class="icon-search"><span class="invisible">Поиск по сайту</span></li>
+        <li class="icon-search"><span class="invisible">Поиск по сайту</span>
+          <section class="modal-search">
+            <h2 class="invisible">Поиск по сайту</h2>
+            <form class="modal modal-search" action="https://echo.htmlacademy.ru" method="get">
+              <input type="text" placeholder="Что ищем?" aria-label="Поле поиска по сайту">
+            </form>
+          </section>
+        </li>
       </ul>
       <ul class="cabinet">
         <li class="user-login">Вход<span class="invisible"> в личный кабинет</span></li>
@@ -83,13 +90,6 @@
     </div>
   </footer>
   <!--Все попапы и формы-->
-  <!--Попап - поиск-->
-  <section class="modal-search">
-    <h2 class="invisible">Поиск по сайту</h2>
-    <form class="modal modal-search" action="https://echo.htmlacademy.ru" method="get">
-      <input type="text" placeholder="Что ищем?" aria-label="Поле поиска по сайту">
-    </form>
-  </section>
 
   <!--Попап - главное меню-->
   <section class="modal modal-main-nav">
