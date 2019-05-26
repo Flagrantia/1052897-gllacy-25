@@ -88,6 +88,10 @@ a {
   background-color: #f8f7f4;
 }
 
+.modal input {
+  border: 1px solid #d3d3d2;
+}
+
 form.modal-search {
   font-size: 14px;
   line-height: 24px;
@@ -106,6 +110,9 @@ button.button-small {
   background-color: #9eb2a7;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
 }
 
 button.button-small:hover {
@@ -222,6 +229,9 @@ button.button-small:hover {
   font-weight: 700;
   color: #fefefe;
   background-color: #f06441;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
 }
 
 .feedback-close {}
