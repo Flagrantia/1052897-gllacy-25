@@ -105,3 +105,15 @@ button.button-small:hover {
 .purchase-full {
   background-color: #f8f7f4;
 }
+
+.breadcrumbs li {
+  list-style-type: none;
+}
+
+.breadcrumbs a {
+  color: inherit;
+}
+
+.breadcrumbs li:not(:last-child):after {
+  content: " >>";
+}
