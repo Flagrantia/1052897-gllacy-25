@@ -119,3 +119,29 @@ button.button-small:hover {
 .breadcrumbs li:not(:last-child):after {
   content: " >>";
 }
+
+.schedule {
+  font-weight: 700;
+}
+
+.schedule-phone {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.about-shop {
+  background-color: #ede1ca;
+  background-image: url("../img/index/bg-waffle.jpg");
+  color: #323232;
+}
+
+.about-shop-intro {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.about-shop-list {
+  font-size: 16px;
+  line-height: 22px;
+}
