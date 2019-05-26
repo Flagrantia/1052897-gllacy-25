@@ -89,3 +89,19 @@ section.modal-main-nav {
 .current-page {
   background-color: #d07058;
 }
+
+button.button-small {
+  background-color: #9eb2a7;
+}
+
+button.button-small:hover {
+  background-color: #f8f7f4;
+}
+
+.purchase-empty {
+  background-color: #9eb2a7;
+}
+
+.purchase-full {
+  background-color: #f8f7f4;
+}
