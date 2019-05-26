@@ -145,3 +145,23 @@ button.button-small:hover {
   font-size: 16px;
   line-height: 22px;
 }
+
+.blog {
+  background-color: #ffffff;
+  background-image: url("../img/index/bg-strawberries.jpg");
+  color: #323232;
+}
+
+.blog-title {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.blog a {
+  color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: underline;
+  font-weight: 700;
+}
