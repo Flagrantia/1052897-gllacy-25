@@ -3,8 +3,8 @@ body {
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 14px;
+  line-height: 16px;
   color: #ffffff;
-  line-height: 18px;
   background-color: #849d8f;
   background-position: top center;
   background-image: url("../img/gradient.png");
@@ -14,4 +14,57 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.site-nav-points,
+.modal-main-nav,
+.search,
+.cabinet,
+.purchase,
+.about-shop-list,
+.footer-SNS,
+.documents-list {
+  list-style: none;
+}
+
+.site-nav-points a,
+.modal-cabinet a,
+.schedule a,
+.blog a,
+.documents-list a,
+.footer-trademark a {
+  color: #ffffff;
+}
+
+.site-nav-points li {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.modal-main-nav a {
+  color: #323232;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.modal-main-nav li:first-child {
+  font-weight: 700;
+}
+
+section.modal-main-nav {
+  background-color: #f8f7f4;
 }
