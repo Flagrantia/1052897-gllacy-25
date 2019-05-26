@@ -39,7 +39,6 @@ a {
 }
 
 .site-nav-points a,
-.modal-cabinet a,
 .schedule a,
 .blog a,
 .documents-list a,
@@ -95,6 +94,13 @@ a {
 .modal-search input,
 .user-login input {
   font-size: 14px;
+  line-height: 24px;
+}
+
+.modal-login-link {
+  color: #323232;
+  text-decoration: underline;
+  font-size: 13px;
   line-height: 24px;
 }
 
