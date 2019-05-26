@@ -88,6 +88,10 @@ section.modal-main-nav {
   background-color: #f6b5a5;
 }
 
+.modal {
+  background-color: #f8f7f4;
+}
+
 .current-page {
   background-color: #d07058;
 }
@@ -132,6 +136,8 @@ button.button-small:hover {
 .about-shop {
   background-color: #ede1ca;
   background-image: url("../img/index/bg-waffle.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: #323232;
 }
 
@@ -149,6 +155,8 @@ button.button-small:hover {
 .blog {
   background-color: #ffffff;
   background-image: url("../img/index/bg-strawberries.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: #323232;
 }
 
