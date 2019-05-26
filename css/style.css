@@ -92,7 +92,8 @@ a {
   border: 1px solid #d3d3d2;
 }
 
-form.modal-search {
+.modal-search input,
+.user-login input {
   font-size: 14px;
   line-height: 24px;
 }
@@ -201,8 +202,7 @@ button.button-small:hover {
   font-weight: 400;
 }
 
-.subscribe-form {
-  color: #999999;
+.subscribe-form input {
   font-size: 16px;
   line-height: 24px;
 }
@@ -232,6 +232,12 @@ button.button-small:hover {
   text-align: center;
   vertical-align: middle;
   border: none;
+}
+
+.modal-feedback input,
+.modal-feedback textarea {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .feedback-close {}
