@@ -29,7 +29,15 @@
       </ul>
       <!--Здесь будет форма поиска-->
       <ul class="search">
-        <li class="icon-search"><span class="invisible">Поиск по сайту</span></li>
+        <li class="icon-search"><span class="invisible">Поиск по сайту</span>
+          <!--Попап поиска-->
+          <section class="modal-search">
+            <h2 class="invisible">Поиск по сайту</h2>
+            <form class="modal modal-search" action="https://echo.htmlacademy.ru" method="get">
+              <input type="search" placeholder="Что ищем?" aria-label="Поле поиска по сайту">
+            </form>
+          </section>
+        </li>
       </ul>
       <ul class="cabinet">
         <li class="user-login"><button type="button" class="button-small">Вход</button><span class="invisible"> в личный кабинет</span>
@@ -137,15 +145,6 @@
       <p class="footer-trademark-text">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
     </div>
   </footer>
-
-  <!--Все попапы и формы-->
-  <!--Попап - поиск-->
-  <section class="modal-search">
-    <h2 class="invisible">Поиск по сайту</h2>
-    <form class="modal modal-search" action="https://echo.htmlacademy.ru" method="get">
-      <input type="text" placeholder="Что ищем?" aria-label="Поле поиска по сайту">
-    </form>
-  </section>
 
   <!--Попап товаров в корзине-->
   <section class="modal modal-purchase">
