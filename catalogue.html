@@ -62,30 +62,27 @@
           <!--Попап товаров в корзине-->
           <section class="modal modal-purchase">
             <h2 class="invisible">Товары в корзине</h2>
-            <table>
+            <table class="purchased-items">
               <tr>
-                <td>
-                  <button type="button" class="purchase-delete" aria-label="Убрать товар из корзины">x</button></td>
-                <td><img src="img/catalogue/icecream-item-citrus.png" width="30" height="30" class="icecream-type" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой"></td>
+                <td class="purchase-delete">
+                  <button type="button" aria-label="Убрать товар из корзины">x</button></td>
+                <td class="icecream-type"><img src="img/catalogue/icecream-item-citrus.png" width="30" height="30" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой"></td>
                 <td>Пломбир с
                   апельсиновым джемом</td>
-                <td><span class="purchase-weight">1,5 кг х </span><span class="purchase-price">200 руб.</span></td>
-                <td><span class="final-price">300 руб.</span></td>
+                <td class="purchase-weight">1,5 кг х <span class="purchase-price">200 руб.</span></td>
+                <td class="final-price">300 руб.</td>
               </tr>
               <tr>
-                <td><button type="button" class="purchase-delete" aria-label="Убрать товар из корзины">x</button></td>
-                <td><img src="img/catalogue/icecream-item-strawberrycream.png" width="30" height="30" class="icecream-type" alt="Сливочно-клубничное с присыпкой из белого шоколада"></td>
+                <td class="purchase-delete"><button type="button" aria-label="Убрать товар из корзины">x</button></td>
+                <td class="icecream-type"><img src="img/catalogue/icecream-item-strawberrycream.png" width="30" height="30" alt="Сливочно-клубничное с присыпкой из белого шоколада"></td>
                 <td>Клубничный пломбир с присыпкой
                   из белого шоколада</td>
-                <td><span class="purchase-weight">1,5 кг х </span><span class="purchase-price">300 руб.</span></td>
-                <td><span class="final-price">450 руб.</span></td>
+                <td class="purchase-weight">1,5 кг х <span class="purchase-price">300 руб.</span></td>
+                <td class="final-price">450 руб.</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td colspan="2">
-                  <p class="purchase-final-price">Итого: 750 руб.</p>
+                <td colspan="5" class="purchase-final-price">
+                  Итого: 750 руб.
                 </td>
               </tr>
             </table>
