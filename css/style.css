@@ -129,6 +129,7 @@ button.button-small:hover {
 
 .purchase-empty {
   background-color: #9eb2a7;
+  font-weight: 500;
 }
 
 .purchase-full {
