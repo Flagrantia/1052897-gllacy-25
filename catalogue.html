@@ -55,7 +55,40 @@
         </li>
       </ul>
       <ul class="purchase">
-        <li class="purchase-full">2 товара<span class="invisible"> в корзине</span></li>
+        <li class="purchase-full">2 товара<span class="invisible"> в корзине</span>
+          <!--Попап товаров в корзине-->
+          <section class="modal modal-purchase">
+            <h2 class="invisible">Товары в корзине</h2>
+            <table>
+              <tr>
+                <td>
+                  <button type="button" class="purchase-delete" aria-label="Убрать товар из корзины">x</button></td>
+                <td><img src="img/catalogue/icecream-item-citrus.png" width="30" height="30" class="icecream-type" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой"></td>
+                <td>Пломбир с
+                  апельсиновым джемом</td>
+                <td><span class="purchase-weight">1,5 кг х </span><span class="purchase-price">200 руб.</span></td>
+                <td><span class="final-price">300 руб.</span></td>
+              </tr>
+              <tr>
+                <td><button type="button" class="purchase-delete" aria-label="Убрать товар из корзины">x</button></td>
+                <td><img src="img/catalogue/icecream-item-strawberrycream.png" width="30" height="30" class="icecream-type" alt="Сливочно-клубничное с присыпкой из белого шоколада"></td>
+                <td>Клубничный пломбир с присыпкой
+                  из белого шоколада</td>
+                <td><span class="purchase-weight">1,5 кг х </span><span class="purchase-price">300 руб.</span></td>
+                <td><span class="final-price">450 руб.</span></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="2">
+                  <p class="purchase-final-price">Итого: 750 руб.</p>
+                </td>
+              </tr>
+            </table>
+            <div class="purchase-pseudobutton" tabindex="0"><a href="#">Оформить заказ</a></div>
+          </section>
+        </li>
       </ul>
     </nav>
     <div class="schedule">
@@ -145,20 +178,6 @@
       <p class="footer-trademark-text">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
     </div>
   </footer>
-
-  <!--Попап товаров в корзине-->
-  <section class="modal modal-purchase">
-    <h2 class="invisible">Товары в корзине</h2>
-    <ul class="purchased-items">
-      <li><span class="purchase-delete" aria-label="Убрать товар из корзины">x</span><img src="img/catalogue/icecream-item-citrus.png" width="30" height="30" class="icecream-type" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">Пломбир с
-        апельсиновым джемом<span class="purchase-weight">1,5 кг х </span><span class="purchase-price">200 руб.</span><span class="final-price">300 руб.</span></li>
-      <li><span class="purchase-delete" aria-label="Убрать товар из корзины">x</span><img src="img/catalogue/icecream-item-strawberrycream.png" width="30" height="30" class="icecream-type"
-          alt="Сливочно-клубничное с присыпкой из белого шоколада">Клубничный пломбир с присыпкой
-        из белого шоколада<span class="purchase-weight">1,5 кг х </span><span class="purchase-price">300 руб.</span><span class="final-price">450 руб.</span></li>
-    </ul>
-    <p class="purchase-final-price">Итого: 750 руб.</p>
-    <div class="purchase-pseudobutton" tabindex="0"><a href="#">Оформить заказ</a></div>
-  </section>
 </body>
 
 </html>
