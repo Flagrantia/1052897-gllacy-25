@@ -104,6 +104,11 @@ a {
   line-height: 24px;
 }
 
+.modal-login-link:hover,
+.modal-login-link:active {
+  color: #e84d37;
+}
+
 form.user {
   font-size: 14px;
   line-height: 24px;
@@ -113,7 +118,8 @@ form.user {
   background-color: #d07058;
 }
 
-button.button-small {
+button.button-small,
+.purchase-full {
   background-color: #9eb2a7;
   font-weight: 500;
   color: #ffffff;
@@ -122,18 +128,20 @@ button.button-small {
   border: none;
 }
 
-button.button-small:hover {
+button.button-small:hover,
+.purchase-full {
   background-color: #f8f7f4;
   color: #323232;
+}
+
+.purchase-full {
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .purchase-empty {
   background-color: #9eb2a7;
   font-weight: 500;
-}
-
-.purchase-full {
-  background-color: #f8f7f4;
 }
 
 .breadcrumbs li {
@@ -146,6 +154,10 @@ button.button-small:hover {
 
 .breadcrumbs li:not(:last-child):after {
   content: " >>";
+}
+
+.breadcrumbs li:not(:last-child) {
+  text-decoration: underline;
 }
 
 .schedule {
@@ -198,6 +210,11 @@ button.button-small:hover {
   font-weight: 700;
 }
 
+.blog a:hover,
+.blog a:active {
+  color: #e84d37;
+}
+
 .subscribe {
   background-color: #f8f7f4;
 }
@@ -230,18 +247,6 @@ button.button-small:hover {
   font-weight: 700;
 }
 
-.button-submit-big,
-.icecream-hover {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #fefefe;
-  background-color: #f06441;
-  text-align: center;
-  vertical-align: middle;
-  border: none;
-}
-
 .modal-feedback input,
 .modal-feedback textarea {
   font-size: 16px;
@@ -261,5 +266,122 @@ button.button-small:hover {
   border: none;
   cursor: pointer;
   overflow: hidden;
+  outline: none;
+}
+
+.purchased-items {
+  color: #323232;
+  font-weight: 400;
+  text-align: left;
+}
+
+.purchased-items a {
+  color: #323232;
+}
+
+.icecream-type td,
+.purchase-weight td,
+.final-price td {
+  font-size: 13 px;
+  line-height: 16px;
+}
+
+span.purchase-price {
+  color: #999999;
+}
+
+td.purchase-final-price {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.button-submit-big,
+div.purchase-pseudobutton,
+.icecream-hover {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fefefe;
+  background-color: #f06441;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+}
+
+.purchase-pseudobutton a {
+  color: #fefefe;
+}
+
+.icecream-list {
+  text-align: center;
+}
+
+span.icecream-price {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.icecream-weight {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.icecream-description a {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.documents-item a {
+  text-decoration: underline;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.documents-item:first-child {
+  font-weight: 700;
+}
+
+.footer-trademark-text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.footer-trademark-text a {
+  text-decoration: underline;
+}
+
+.schedule-phone a:hover,
+.schedule-phone a:active,
+.breadcrumbs li:not(:last-child):hover,
+.breadcrumbs li:not(:last-child):active,
+.icecream-list a:hover,
+.icecream-list a:active,
+.documents-item a:hover,
+.documents-item a:active,
+.footer-trademark-text a:hover,
+.footer-trademark-text a:active {
+  color: #ffbc9e;
+}
+
+input {
+  border: 1px solid #d3d3d2;
+  font-weight: 400;
+}
+
+input:hover,
+textarea:hover {
+  bordfser: 2px solid #c7c6c5;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  border: 2px solid #8fbdec;
   outline: none;
 }
