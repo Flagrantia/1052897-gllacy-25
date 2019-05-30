@@ -92,12 +92,6 @@ textarea {
   border: 1px solid #d3d3d2;
 }
 
-.modal-search input,
-.user-login input {
-  font-size: 14px;
-  line-height: 24px;
-}
-
 .modal-login-link {
   color: #323232;
   text-decoration: underline;
@@ -418,4 +412,50 @@ textarea:focus {
   line-height: 24px;
   color: #999999;
   font-weight: 400;
+}
+
+.modal-search input,
+.user-login input {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.modal-search::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.modal-search::-moz-placeholder {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.modal-search:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.modal-search:-moz-placeholder {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user-login::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user-login::-moz-placeholder {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user-login:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user-login:-moz-placeholder {
+  font-size: 14px;
+  line-height: 24px;
 }
