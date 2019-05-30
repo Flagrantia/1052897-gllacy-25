@@ -87,7 +87,8 @@ a {
   background-color: #f8f7f4;
 }
 
-.modal input {
+.modal input,
+textarea {
   border: 1px solid #d3d3d2;
 }
 
@@ -368,14 +369,17 @@ span.icecream-price {
   color: #ffbc9e;
 }
 
-input {
+input,
+textarea {
   border: 1px solid #d3d3d2;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 input:hover,
 textarea:hover {
-  bordfser: 2px solid #c7c6c5;
+  border: 2px solid #c7c6c5;
 }
 
 input:active,
@@ -384,4 +388,34 @@ textarea:active,
 textarea:focus {
   border: 2px solid #8fbdec;
   outline: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
 }
