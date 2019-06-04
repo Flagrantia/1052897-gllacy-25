@@ -114,7 +114,7 @@ form.user {
 }
 
 button.button-small {
-  background-color: #9eb2a7;
+  background-color: rgba(255, 255, 255, 0.2);
   font-weight: 500;
   color: #ffffff;
   text-align: center;
@@ -181,7 +181,7 @@ button.button-small:hover {
 
 .about-shop-intro {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 30px;
 }
 
@@ -204,12 +204,16 @@ button.button-small:hover {
   font-weight: 500;
 }
 
-.blog a {
+.blog-description {
   color: #323232;
   font-size: 24px;
   line-height: 30px;
   text-decoration: underline;
   font-weight: 700;
+}
+
+.blog-description a {
+  color: inherit;
 }
 
 .blog a:hover,
@@ -263,7 +267,7 @@ button.button-small:hover {
 
 .feedback-close,
 .purchase-delete button {
-  background-color: Transparent;
+  background-color: transparent;
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
@@ -284,7 +288,7 @@ button.button-small:hover {
 .icecream-type td,
 .purchase-weight td,
 .final-price td {
-  font-size: 13 px;
+  font-size: 13px;
   line-height: 16px;
 }
 
@@ -392,33 +396,21 @@ textarea:focus {
 }
 
 ::-webkit-input-placeholder {
-  font-size: 16px;
-  line-height: 24px;
   color: #999999;
-  font-weight: 400;
 }
 
 ::-moz-placeholder {
-  font-size: 16px;
-  line-height: 24px;
   color: #999999;
-  font-weight: 400;
 }
 
 /* Firefox 19+ */
 :-moz-placeholder {
-  font-size: 16px;
-  line-height: 24px;
-  color: #999999;
-  font-weight: 400;
+  color: rgba(153, 153, 153, 0.6);
 }
 
 /* Firefox 18- */
 :-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 24px;
-  color: #999999;
-  font-weight: 400;
+  color: rgba(153, 153, 153, 0.6);
 }
 
 .modal-search input,
