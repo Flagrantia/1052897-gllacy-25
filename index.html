@@ -38,7 +38,7 @@
           <section class="modal modal-search">
             <h2 class="invisible">Поиск по сайту</h2>
             <form class="modal modal-search" action="https://echo.htmlacademy.ru" method="get">
-              <input type="search" placeholder="Что ищем?" aria-label="Поле поиска по сайту">
+              <input class="search-input" type="search" placeholder="Что ищем?" aria-label="Поле поиска по сайту">
             </form>
           </section>
         </li>
@@ -49,8 +49,8 @@
           <section class="modal modal-cabinet">
             <h2 class="invisible">Вход в личный кабинет</h2>
             <form class="user" method="post" action="https://echo.htmlacademy.ru" name="user-login">
-              <p><input type="email" name="login" placeholder="Электронная почта" aria-label="Поле ввода электронной почты" required></p>
-              <p><input type="password" name="password" placeholder="Пароль" aria-label="Поле ввода пароля" required></p>
+              <p><input class="modal-cabinet-input" type="email" name="login" placeholder="Электронная почта" aria-label="Поле ввода электронной почты" required></p>
+              <p><input class="modal-cabinet-input" type="password" name="password" placeholder="Пароль" aria-label="Поле ввода пароля" required></p>
               <button class="login button-submit-big" type="submit" aria-label="Кнопка входа в личный кабинет">Войти</button>
               <a href="#" class="modal-login-link">Забыли пароль?</a>
               <a href="#" class="modal-login-link">Новая регистрация</a>
@@ -90,8 +90,8 @@
       <!--Заголовок будет скрыт-->
       <p class="subscribe-description">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
       <!--Форма подписки-->
-      <form action="https://echo.htmlacademy.ru" method="post" class="subscribe-form" name="subscribe-form">
-        <input type="email" required placeholder="Электронная почта" aria-label="Электронная почта для подписки на новости" name="email-subscribe">
+      <form action="https://echo.htmlacademy.ru" method="post" name="subscribe-form">
+        <input class="subscribe-form-input" type="email" required placeholder="Электронная почта" aria-label="Электронная почта для подписки на новости" name="email-subscribe">
         <button type="submit" class="button-submit-big">Отправить</button>
       </form>
     </article>
@@ -111,9 +111,9 @@
         <p class="feedback">Мы обязательно вам ответим!</p>
         <button type="button" class="feedback-close" aria-label="Закрыть окно обратной связи">x</button>
         <form class="modal modal-feedback" method="post" action="https://echo.htmlacademy.ru" name="feedback-form">
-          <p><input type="text" name="feedback-name" placeholder="Как вас зовут?" aria-label="Поле ввода имени" required></p>
-          <p><input type="email" name="feedback-email" placeholder="Ваша почта для ответа?" aria-label="Поле для электронной почты" required></p>
-          <p><textarea rows="10" name="feedback-content" aria-label="Текст отзыва" required placeholder="Напишите что-нибудь..."></textarea></p>
+          <p><input class="feedback-input" type="text" name="feedback-name" placeholder="Как вас зовут?" aria-label="Поле ввода имени" required></p>
+          <p><input class="feedback-input" type="email" name="feedback-email" placeholder="Ваша почта для ответа?" aria-label="Поле для электронной почты" required></p>
+          <p><textarea class="feedback-input" rows="10" name="feedback-content" aria-label="Текст отзыва" required placeholder="Напишите что-нибудь..."></textarea></p>
           <button type="submit" class="button-submit-big">Отправить</button>
         </form>
       </section>

@@ -232,9 +232,10 @@ button.button-small:hover {
   font-weight: 400;
 }
 
-.subscribe-form input {
+.subscribe-form-input {
   font-size: 16px;
   line-height: 24px;
+  font-weight: 700;
 }
 
 .address {
@@ -251,12 +252,6 @@ button.button-small:hover {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-}
-
-.modal-feedback input,
-.modal-feedback textarea {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .feedback p {
@@ -374,27 +369,6 @@ span.icecream-price {
   color: #ffbc9e;
 }
 
-input,
-textarea {
-  border: 1px solid #d3d3d2;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-input:hover,
-textarea:hover {
-  border: 2px solid #c7c6c5;
-}
-
-input:active,
-input:focus,
-textarea:active,
-textarea:focus {
-  border: 2px solid #8fbdec;
-  outline: none;
-}
-
 ::-webkit-input-placeholder {
   color: #999999;
 }
@@ -413,10 +387,35 @@ textarea:focus {
   color: rgba(153, 153, 153, 0.6);
 }
 
-.modal-search input,
-.user-login input {
+.feedback-input {
+  border: 1px solid #d3d3d2;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.search-input,
+.modal-cabinet-input {
+  border: 1px solid #d3d3d2;
+  font-weight: 700;
   font-size: 14px;
   line-height: 24px;
+}
+
+.search-input:hover,
+.feedback-input:hover,
+.modal-cabinet-input:hover,
+.subscribe-form-input:hover {
+  border: 2px solid #c7c6c5;
+  margin: -1px;
+}
+
+.search-input:active,
+.feedback-input:active,
+.modal-cabinet-input:active,
+.subscribe-form-input:active {
+  border: 2px solid #8fbdec;
+  outline: none;
 }
 
 .modal-search::-webkit-input-placeholder {
